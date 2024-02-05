@@ -23,9 +23,12 @@
 <h1 align="center">JavaScript Tic Tac Toe Game</h1>
 
 A simple Tic Tac Toe game built with JavaScript, HTML, and CSS.
+- Play it on CodePen [here](https://codepen.io/scottgriv/pen/WNmyKwO).
 
 <div align="center">
-    <img src="./docs/images/demo.png" />
+    <a href="https://codepen.io/scottgriv/pen/WNmyKwO"><img src="./docs/images/demo.png" /></a>
+    <br>
+    <i>A virtual recreation of Tic Tac Toe!</i>
 </div>
 
 ---------------
