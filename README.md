@@ -31,6 +31,9 @@ A simple Tic Tac Toe game built with JavaScript, HTML, and CSS.
     <i>A virtual recreation of Tic Tac Toe!</i>
 </div>
 
+> [!NOTE]
+> Because of modern day browsers enforcing CORS Policy, the javascript for this application is included in the `index.html` file, not a separate `script.js` file.
+
 ---------------
 
 ## Table of Contents

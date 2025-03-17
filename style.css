@@ -3,8 +3,7 @@ body {
   margin: 20px;
 }
 
-ol,
-ul {
+ol, ul {
   padding-left: 30px;
 }
 
@@ -31,6 +30,7 @@ ul {
   padding: 0;
   text-align: center;
   width: 34px;
+  cursor: pointer;
 }
 
 .square:focus {
@@ -48,4 +48,35 @@ ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+#errors {
+  background: #c00;
+  color: #fff;
+  display: none;
+  margin: -20px -20px 20px;
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+/* 🔄 Loading Spinner */
+#loading {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.spinner {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #3498db; /* Blue color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 10px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
